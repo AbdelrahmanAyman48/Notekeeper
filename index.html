@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- -favicon-->
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml" />
+    <!--       - theme js -->
+    <!--       - google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aclonica&family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <!--   - material icon-->
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    /> -->
+
+    <!-- -custom css link -->
+    <link rel="stylesheet" href="src/css/style.css" />
+
+    <title>Notes App</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <img class="burgerBar" src="src/images/Menu.svg" aria-hidden="true"></img>
+      <h3 class="menu__title">Almdrasa-Notes</h3>
+      <img src="src/images/Frame.svg" alt="search icon" class="searchIcon" width="20px" >
+      <div class="menu__search">
+        <div class="menu__search-icon">
+          <img src="src/images/search.svg" alt="search icon" />
+        </div>
+        <input type="text" id="search" class="menu__search-input"
+        placeholder="Search..."
+        aria-label="search"/>
+        <!-- <button type="button" id="searchButton" aria-label="Search">
+          <i class="fas fa-search"></i>
+        </button> -->
+      </div>
+      <section class="menu">
+        <nav class="menu__nav">
+          <div role="tab" class="menu__nav-item menu__nav-item-noteButton" aria-label="nav">
+            <span class="menu__nav-item-line"></span>
+            <button
+              id="noteButton"
+              class="menu__nav-item-link menu__nav-item-link-active"
+            >
+              Notes
+            </button>
+          </div>
+          <div class="menu__nav-item menu__nav-item-addNoteButton">
+            <span></span>
+            <button id="addNoteButton" class="menu__nav-item-link">
+              Add Note
+            </button>
+          </div>
+        </nav>
+        <footer class="footer">
+          <div class="container">
+              <p class="footer__text">&copy; 2024 Abdelrahman Ayman. All rights reserved.</p>
+          </div>
+      </footer>
+      
+      </section>
+      <section id="note" class="note">
+        <div class="">
+          <div class="note__notes">
+            <img
+              class="note__notes-image"
+              src="/src/images/Ellipse2.svg"
+              alt="Ellipse2"
+              width="28px"
+            />
+            <h3 id="pinned" class="note__notes-title">
+              <span class="note__notes-title-text">PINNED</span>
+            </h3>
+
+            <h3 id="normal" class="note__notes-title note__notes-title-notes">
+              <span class="note__notes-title-text">Notes</span>
+            </h3>
+          </div>
+          <div class="note__blog">
+          </div>
+        </div>
+      </section>
+      <section id="addNote" class="addNote">
+        <h1 class="addNote__title">Add Note</h1>
+        <form class="addNote__form">
+          <div class="addNote__form-item">
+            <label class="addNote__form-item-label">Title*</label>
+            <input id="title" type="text" class="addNote__form-item-input" />
+          </div>
+          <div class="addNote__form-item">
+            <label class="addNote__form-item-label">Author*</label>
+            <input id="auther" type="text" class="addNote__form-item-input" />
+          </div>
+          <div class="addNote__form-item">
+            <label class="addNote__form-item-label">Your Note*</label>
+            <textarea
+              id="details"
+              class="addNote__form-item-input addNote__form-item-input-note"
+            ></textarea>
+          </div>
+        </form>
+        <div class="addNote__buttons">
+          <button id="normalNote" class="addNote__buttons-add">Add Note</button>
+          <button id="pinnedNote" class="addNote__buttons-add">
+            Add pinned note
+          </button>
+        </div>
+      </section> 
+    </div>
+    <!-- 
+      -custom js link
+    -->
+    <script type="module" src="./src/js/handleToggle.js"></script>
+    <script type="module" src="./src/js/addInitialNotes.js"></script>
+    <script type="module" src="./src/js/addNote.js"></script>
+    <script type="module" src="./src/js/handleNote.js"></script>
+    <script type="module" src="./src/js/handleNotesSidebar.js"></script>
+    <script type="module" src="./src/js/search.js"></script>
+  </body>
+</html>
