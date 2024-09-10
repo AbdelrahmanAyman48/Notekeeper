@@ -2,9 +2,9 @@
 
 This is a simple Notes App project built using HTML, CSS, and JavaScript (with some parts written in SASS for improved styling). The application allows users to add, delete, search, and highlight notes.
 
-## [Live Site](https://note-app-mansy.netlify.app)
+## [Live Site]()
 ## [Figma Dsign](https://www.figma.com/file/FSzGesa0hMQsYPd1B41s8F/Note-app-almdrasa-js-diploma-project?type=design&node-id=0-1&mode=design&t=q4qXoR5CmH9Wfk9T-0)
-## [Planning](https://miro.com/app/board/uXjVNpUOf3c=/?share_link_id=519429178805)
+
 
 ## Frameworks:
 <img src="https://img.icons8.com/color/48/000000/javascript.png"/> <img src="https://img.icons8.com/color/48/000000/sass.png"/> <img src="https://img.icons8.com/color/48/000000/figma.png">
@@ -91,8 +91,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-- [Author](https://github.com/MMansy19)
-- [Website](https://mahmoud-mansy-portfolio.netlify.app/)
-- [Email](mailto:mahmoud2abdalfattah@gmail.com)
-- [LinkedIn](https://www.linkedin.com/in/mahmoud-mansy-a189a5232)
 
+- Website - [abdelrahmanayman48](https://)
+- Github - [AbdelrahmanAyman48](https://github.com/AbdelrahmanAyman48/calculator-web-app)
+- Linkedin - [Abdelrahman-Ayman](https://www.linkedin.com/in/abdelrahman-ayman-290674252/)
+
+## Useful Repositories
+
+(https://github.com/MMansy19/Notes-App/tree/main)
