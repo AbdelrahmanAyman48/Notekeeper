@@ -20,23 +20,15 @@ This is a simple Notes App project built using HTML, CSS, and JavaScript (with s
 
 ## Screenshots
 
-### 1.Planning
-<div align="center">
-  <img src="Screenshots/planning-2.jpg" alt="planning 2" width="1000">
-</div>
-<div align="center">
-  <img src="Screenshots/planning-1.jpg" alt="planning 1" width="1000">
-</div>
 
-
-### 2.UI
+### UI
 
 <div align="center">
   <img src="Screenshots//💻⚪️Home.jpg" alt="planning 2" width="400">
   <img src="Screenshots/💻Add Note.png" alt="planning 1" width="400">
 </div>
 
-### 3.Responsive
+### Responsive
 <div align="center">
   <img src="Screenshots/📱⚪️Home.jpg" alt="planning 2" width="400">
   <img src="Screenshots/📱⚪Add Note.png" alt="planning 2" width="400">
